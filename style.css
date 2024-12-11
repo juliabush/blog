@@ -12,6 +12,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Figtree';
 }
 .card {
     display: flex;
@@ -32,10 +33,23 @@ img {
 button {
     width: 70px;
     color: black;
-    font-weight: 600;
+    font-weight: 1000;
     background-color: hsl(47, 88%, 63%);
     font-size: 12px;
     padding: 5px;
     border-radius: 3px;
     margin-bottom: 10px;
+}
+.pub-date {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.lang {
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.lang:hover {
+    color: hsl(47, 88%, 63%);
 }
